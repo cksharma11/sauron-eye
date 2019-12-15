@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sauron-eye/precache-manifest.e5a0dd23943c85850b78bb59b571c5ef.js"
+  "/sauron-eye/precache-manifest.a3c798820e5e758655da487e1f441aca.js"
 );
 
 self.addEventListener('message', (event) => {
