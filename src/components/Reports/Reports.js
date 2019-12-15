@@ -5,7 +5,7 @@ const Reports = ({ details, username }) => {
   return (
     <div className="details">
       {details.map(detail => {
-        return <Report detail={detail} username={username} />;
+        return <Report detail={detail} username={username} key={detail}/>;
       })}
     </div>
   );

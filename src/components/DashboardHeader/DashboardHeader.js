@@ -4,7 +4,7 @@ const DashboardHeader = ({ headings }) => {
   return (
     <tr>
       {headings.map(heading => (
-        <th>{heading}</th>
+        <th key={heading}>{heading}</th>
       ))}
     </tr>
   );

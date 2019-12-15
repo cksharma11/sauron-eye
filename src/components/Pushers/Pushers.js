@@ -3,7 +3,7 @@ import PusherInfo from "../PusherInfo/PusherInfo";
 
 const Pushers = ({ dashboard }) => {
   return dashboard.map(pusher => {
-    return <PusherInfo pusher={pusher} />;
+    return <PusherInfo pusher={pusher} key={pusher}/>;
   });
 };
 
