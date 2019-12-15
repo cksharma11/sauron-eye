@@ -10,10 +10,10 @@ const getPushersFromGollumJi = async () => {
 const App = () => {
   const [pushers, setPushers] = useState({});
   useEffect(() => {
-    (async () => {
+    setInterval(async () => {
       const gollumJiData = await getPushersFromGollumJi();
       setPushers(gollumJiData);
-    })();
+    }, 1000);
   }, []);
 
   return (

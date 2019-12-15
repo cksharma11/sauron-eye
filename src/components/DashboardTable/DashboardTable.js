@@ -5,8 +5,12 @@ import Pushers from "../Pushers/Pushers";
 const DashboardTable = ({ dashboard }) => {
   return (
     <table border="1">
-      <DashboardHeader headings={["Pusher", "SHA", "Passed/Total", "Graph"]} />
-      <Pushers dashboard={dashboard} />
+      <thead>
+        <DashboardHeader
+          headings={["Pusher", "SHA", "Passed/Total", "Graph"]}
+        />
+        <Pushers dashboard={dashboard} />
+      </thead>
     </table>
   );
 };

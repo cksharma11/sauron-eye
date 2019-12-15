@@ -44,7 +44,7 @@ code {
   text-align: left;
 }
 
-table > tr > td {
+table > thead >tr > td {
   width: 200px;
   text-align: center;
 }
