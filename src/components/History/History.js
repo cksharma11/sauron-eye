@@ -1,11 +1,6 @@
 import React from "react";
 import Reports from "../Reports/Reports";
-
-const getUsername = () => {
-  const search = window.location.search;
-  const urlParams = new URLSearchParams(search);
-  return urlParams.get("username");
-};
+import { getUsername } from "../../helpers/helpers";
 
 const History = ({ pushers }) => {
   const username = getUsername();

@@ -43,3 +43,8 @@ code {
   padding: 0 20px;
   text-align: left;
 }
+
+table > tr > td {
+  width: 200px;
+  text-align: center;
+}

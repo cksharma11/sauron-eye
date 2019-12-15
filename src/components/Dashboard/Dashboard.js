@@ -1,13 +1,13 @@
 import React from "react";
-import Pusher from "../Pusher/Pusher";
+import DashboardTable from "../DashboardTable/DashboardTable";
+import { getSortedDashboard } from "../../helpers/helpers";
 
 const Dashboard = ({ pushers }) => {
+  const sortedDashboard = getSortedDashboard(pushers);
+
   return (
     <div className="dashboard">
-      {Object.keys(pushers).map(pusher => {
-        const details = pushers[pusher];
-        return <Pusher details={details} name={pusher} />;
-      })}
+      <DashboardTable dashboard={sortedDashboard} />
     </div>
   );
 };
