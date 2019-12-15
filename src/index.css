@@ -27,8 +27,7 @@ code {
   justify-content: center;
 }
 
-.failed-cases-container{
-  /* border: 1px solid black; */
+.failed-cases-container {
   margin: 20px;
   padding: 10px 30px;
   text-align: left;
