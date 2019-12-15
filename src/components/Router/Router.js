@@ -13,7 +13,7 @@ const App = () => {
     setInterval(async () => {
       const gollumJiData = await getPushersFromGollumJi();
       setPushers(gollumJiData);
-    }, 1000);
+    }, 5000);
   }, []);
 
   return (
