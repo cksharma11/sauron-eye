@@ -5,10 +5,10 @@ const PusherInfo = ({ pusher }) => {
   const { name, sha, passed, total } = pusher;
   return (
     <tr>
-      <td>{name}</td>
       <td>
-        <Link to={`history?username=${name}`}> {sha}</Link>
+        <Link to={`history?username=${name}`}> {name}</Link>
       </td>
+      <td>{sha}</td>
       <td>{`${passed}/${total}`}</td>
       <td>--</td>
     </tr>
