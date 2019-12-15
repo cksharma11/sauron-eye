@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sauron-eye/static/css/main.e8fc28f1.chunk.css",
+    "main.js": "/sauron-eye/static/js/main.fe120fba.chunk.js",
+    "main.js.map": "/sauron-eye/static/js/main.fe120fba.chunk.js.map",
+    "runtime-main.js": "/sauron-eye/static/js/runtime-main.123eb616.js",
+    "runtime-main.js.map": "/sauron-eye/static/js/runtime-main.123eb616.js.map",
+    "static/js/2.4b930584.chunk.js": "/sauron-eye/static/js/2.4b930584.chunk.js",
+    "static/js/2.4b930584.chunk.js.map": "/sauron-eye/static/js/2.4b930584.chunk.js.map",
+    "index.html": "/sauron-eye/index.html",
+    "precache-manifest.36fdd8f8c2043c02705614ec24cf3b2c.js": "/sauron-eye/precache-manifest.36fdd8f8c2043c02705614ec24cf3b2c.js",
+    "service-worker.js": "/sauron-eye/service-worker.js",
+    "static/css/main.e8fc28f1.chunk.css.map": "/sauron-eye/static/css/main.e8fc28f1.chunk.css.map",
+    "static/js/2.4b930584.chunk.js.LICENSE": "/sauron-eye/static/js/2.4b930584.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.123eb616.js",
+    "static/js/2.4b930584.chunk.js",
+    "static/css/main.e8fc28f1.chunk.css",
+    "static/js/main.fe120fba.chunk.js"
+  ]
+}
