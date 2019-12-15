@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
+import { createBrowserHistory } from 'history';
 import Dashboard from "../Dashboard/Dashboard";
 import History from "../History/History";
 
@@ -17,7 +18,7 @@ const App = () => {
   }, []);
 
   return (
-    <Router>
+    <Router history={createBrowserHistory()}>
       <Route exact path="/" component={Dashboard.bind(this, { pushers })} />
       <Route path="/history" component={History.bind(this, { pushers })} />
     </Router>
