@@ -1,12 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Puhser = ({ pusher }) => {
+const Pusher = ({ details, name }) => {
   return (
     <div className="pusher">
-      <h3>{pusher.name}</h3>
-      <div>{`Errors ab tak ->  ${pusher.errorCount}`}</div>
+      <Link to={`history?username=${name}`}>{name}</Link>
+      <div>{`Total Tests ->  ${details[0].test.total}`}</div>
+      <div>{`Pass hui tests ->  ${details[0].test.passed}`}</div>
     </div>
   );
 };
 
-export default Puhser;
+export default Pusher;

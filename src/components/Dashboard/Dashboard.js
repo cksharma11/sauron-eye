@@ -1,14 +1,13 @@
 import React from "react";
-import * as utils from "../../utils/utils";
-import Puhser from "../Pusher/Pusher";
+import Pusher from "../Pusher/Pusher";
 
-const Dashboard = () => {
-  const pushers = utils.getAllPusher();
+const Dashboard = ({ pushers }) => {
   return (
     <div className="dashboard">
-      {pushers.map(pusher => (
-        <Puhser pusher={pusher} />
-      ))}
+      {Object.keys(pushers).map(pusher => {
+        const details = pushers[pusher];
+        return <Pusher details={details} name={pusher} />;
+      })}
     </div>
   );
 };
