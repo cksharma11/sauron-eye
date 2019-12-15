@@ -1,7 +1,6 @@
 import React from "react";
 
-const FailedTests = ({ detail }) => {
-  const { failedTests } = detail.test;
+const FailedTests = ({ failedTests }) => {
   return (
     <ul className="failed-cases-container">
       {failedTests.map(failedTest => (

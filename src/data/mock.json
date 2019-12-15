@@ -2,300 +2,264 @@
   "rajat": [
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 10,
-        "failed": 5,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 10,
+      "failed": 5,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     },
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 10,
-        "failed": 5,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 10,
+      "failed": 5,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     },
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 10,
-        "failed": 5,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 10,
+      "failed": 5,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     }
   ],
   "shukhi": [
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 10,
-        "failed": 5,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 10,
+      "failed": 5,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     },
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 10,
-        "failed": 5,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 10,
+      "failed": 5,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     },
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 9,
-        "failed": 6,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 9,
+      "failed": 6,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     }
   ],
   "apurva": [
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 6,
-        "failed": 9,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 6,
+      "failed": 9,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     },
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 10,
-        "failed": 5,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 10,
+      "failed": 5,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     },
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 13,
-        "failed": 2,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 13,
+      "failed": 2,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     }
   ],
   "dad-ki-rani-sha": [
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 14,
-        "failed": 1,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 14,
+      "failed": 1,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     },
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 15,
-        "failed": 0,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 15,
+      "failed": 0,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     },
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 1,
-        "failed": 14,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 1,
+      "failed": 14,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     }
   ],
   "mom-ka-raja-sha": [
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 0,
-        "failed": 15,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 0,
+      "failed": 15,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     },
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 10,
-        "failed": 5,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 10,
+      "failed": 5,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     },
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 10,
-        "failed": 5,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 10,
+      "failed": 5,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     }
   ],
   "shivi-the-sayar": [
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 10,
-        "failed": 5,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 10,
+      "failed": 5,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     },
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 10,
-        "failed": 5,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 10,
+      "failed": 5,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     },
     {
       "sha": "1234HSA",
-      "test": {
-        "total": 15,
-        "passed": 10,
-        "failed": 5,
-        "failedTests": [
-          "should laugh hard",
-          "should not take bath daily",
-          "should be late everyday",
-          "should eat on time",
-          "should not do assigments"
-        ]
-      },
+      "total": 15,
+      "passed": 10,
+      "failed": 5,
+      "failedTests": [
+        "should laugh hard",
+        "should not take bath daily",
+        "should be late everyday",
+        "should eat on time",
+        "should not do assigments"
+      ],
       "time": "sometime"
     }
   ]
