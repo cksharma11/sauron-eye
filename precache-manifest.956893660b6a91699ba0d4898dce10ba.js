@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa081360928525657203dd5bbfe9a8a2",
+    "revision": "de0e296938e2f0ccf80d9f35ac6432f3",
     "url": "/sauron-eye/index.html"
   },
   {
-    "revision": "ca261608a19bdb96bfb5",
+    "revision": "4c3848e57b4515b90085",
     "url": "/sauron-eye/static/css/main.d029d354.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sauron-eye/static/js/2.9f832d10.chunk.js.LICENSE"
   },
   {
-    "revision": "ca261608a19bdb96bfb5",
-    "url": "/sauron-eye/static/js/main.bad23768.chunk.js"
+    "revision": "4c3848e57b4515b90085",
+    "url": "/sauron-eye/static/js/main.69e7c503.chunk.js"
   },
   {
     "revision": "33a6f014dcd832b57517",
