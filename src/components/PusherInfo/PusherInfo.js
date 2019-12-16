@@ -13,7 +13,7 @@ const PusherInfo = ({ pusher, number }) => {
         <a
           href={`https://github.com/step-batch-7/${project}-${name}/commit/${sha}`}
         >
-          {sha}
+          {sha.substr(0,6)}
         </a>
       </td>
       <td>{`${passed}/${total}`}</td>
