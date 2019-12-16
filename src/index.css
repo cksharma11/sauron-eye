@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: "Ubuntu Mono", monospace;
+  padding-top: 10px;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -44,11 +45,20 @@ code {
   text-align: left;
 }
 
-table > thead >tr > td {
+table > thead > tr > td {
   width: 200px;
   text-align: center;
 }
 
 .serial-number {
   width: 50px;
+}
+
+.whitesomke {
+  background: whitesmoke;
+}
+
+th {
+  background: rgb(23, 177, 238);
+  color: white;
 }

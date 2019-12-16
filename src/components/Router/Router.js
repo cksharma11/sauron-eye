@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { HashRouter as Router, Route } from "react-router-dom";
-import { createBrowserHistory } from 'history';
+import { createBrowserHistory } from "history";
 import Dashboard from "../Dashboard/Dashboard";
 import History from "../History/History";
 
