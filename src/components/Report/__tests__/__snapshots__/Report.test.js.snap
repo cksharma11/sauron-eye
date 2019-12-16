@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Report should render properly 1`] = `
+"<div className=\\"report\\">
+  <p>
+    test | sha123 | 0 seconds ago
+  </p>
+  <FailedTests failedSuites={{...}} />
+</div>"
+`;

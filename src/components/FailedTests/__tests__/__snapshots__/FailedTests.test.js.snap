@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FailedTests should render properly 1`] = `
+"<ul className=\\"failed-cases-container\\">
+  <li>
+    Failed 1
+  </li>
+  <li>
+    Failed 2
+  </li>
+</ul>"
+`;

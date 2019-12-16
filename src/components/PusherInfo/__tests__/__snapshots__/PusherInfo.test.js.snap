@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PusherInfo should render properly 1`] = `
+"<tr className=\\"whitesomke\\">
+  <td className=\\"serial-number\\">
+    1
+  </td>
+  <td>
+    <Link to=\\"history?username=somename\\">
+      somename
+    </Link>
+  </td>
+  <td>
+    <a href=\\"https://github.com/step-batch-7/test-somename/commit/123sha\\">
+      123sha
+    </a>
+  </td>
+  <td>
+    10/15
+  </td>
+  <td>
+    --
+  </td>
+</tr>"
+`;

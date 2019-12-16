@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reports should render properly 1`] = `
+"<div className=\\"details\\">
+  <Report detail={{...}} username=\\"test\\" />
+  <Report detail={{...}} username=\\"test\\" />
+</div>"
+`;

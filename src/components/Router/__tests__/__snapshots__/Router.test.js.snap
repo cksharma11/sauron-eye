@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render properly 1`] = `
+"<HashRouter history={{...}}>
+  <Route exact={true} path=\\"/\\" component={[Function: bound Dashboard]} />
+  <Route path=\\"/history\\" component={[Function: bound History]} />
+</HashRouter>"
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardHeader should render properly 1`] = `
+"<tr>
+  <th>
+    A
+  </th>
+  <th>
+    B
+  </th>
+  <th>
+    C
+  </th>
+</tr>"
+`;
