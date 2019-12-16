@@ -5,7 +5,7 @@ import Dashboard from "../Dashboard/Dashboard";
 import History from "../History/History";
 
 const getPushersFromGollumJi = async () => {
-  return await fetch("https://gollum-ji.herokuapp.com").then(res => res.json());
+  return await fetch("https://gollum-ji.herokuapp.com/test").then(res => res.json());
 };
 
 const App = () => {
