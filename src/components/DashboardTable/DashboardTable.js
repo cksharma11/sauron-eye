@@ -7,7 +7,7 @@ const DashboardTable = ({ dashboard }) => {
     <table border="1">
       <thead>
         <DashboardHeader
-          headings={["Pusher", "SHA", "Passed/Total", "Graph"]}
+          headings={["No", "Pusher", "SHA", "Passed/Total", "Graph"]}
         />
         <Pushers dashboard={dashboard} />
       </thead>

@@ -48,3 +48,7 @@ table > thead >tr > td {
   width: 200px;
   text-align: center;
 }
+
+.serial-number {
+  width: 50px;
+}
