@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const PusherInfo = ({ pusher, number }) => {
-  const { name, sha, passed, total, project } = pusher;
+  const { name, sha, passed, total, project, latestPushTime } = pusher;
   return (
     <tr className={`${number % 2 === 0 ? "white" : "whitesomke"}`}>
       <td className="serial-number">{number}</td>
@@ -17,7 +17,7 @@ const PusherInfo = ({ pusher, number }) => {
         </a>
       </td>
       <td>{`${passed}/${total}`}</td>
-      <td>--</td>
+      <td>{latestPushTime}</td>
     </tr>
   );
 };

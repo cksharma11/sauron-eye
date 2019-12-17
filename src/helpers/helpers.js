@@ -2,25 +2,6 @@ const sortByTime = (x, y) => {
   return new Date(y.time) - new Date(x.time);
 };
 
-const getSortedDashboard = pushers => {
-  const dashboard = Object.keys(pushers).map(name => {
-    if (!pushers[name].length) {
-      return { total: 0, passed: 0, name, sha: "-", project: "" };
-    }
-    const pusher = pushers[name].sort(sortByTime)[0];
-    const { passed, total, sha, project } = pusher;
-    return { total, passed, name, sha, project };
-  });
-
-  return dashboard.sort((x, y) => y.passed - x.passed);
-};
-
-const getUsername = () => {
-  const search = window.location.hash.split("?")[1];
-  const urlParams = new URLSearchParams(search);
-  return urlParams.get("username");
-};
-
 const getTimeDifference = (current, previous) => {
   const msPerMinute = 60 * 1000;
   const msPerHour = msPerMinute * 60;
@@ -43,6 +24,26 @@ const getTimeDifference = (current, previous) => {
     return Math.round(elapsed / msPerMonth) + " months ago";
 
   return Math.round(elapsed / msPerYear) + " years ago";
+};
+
+const getSortedDashboard = pushers => {
+  const dashboard = Object.keys(pushers).map(name => {
+    if (!pushers[name].length) {
+      return { total: 0, passed: 0, name, sha: "-", project: "" };
+    }
+    const pusher = pushers[name].sort(sortByTime)[0];
+    const { passed, total, sha, project } = pusher;
+    const latestPushTime = getTimeDifference(new Date(), new Date(pusher.time));
+    return { total, passed, name, sha, project, latestPushTime };
+  });
+
+  return dashboard.sort((x, y) => y.passed - x.passed);
+};
+
+const getUsername = () => {
+  const search = window.location.hash.split("?")[1];
+  const urlParams = new URLSearchParams(search);
+  return urlParams.get("username");
 };
 
 export { getSortedDashboard, getUsername, getTimeDifference };
