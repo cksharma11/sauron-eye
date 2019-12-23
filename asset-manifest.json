@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sauron-eye/static/css/main.39bf18ee.chunk.css",
-    "main.js": "/sauron-eye/static/js/main.0d95dc74.chunk.js",
-    "main.js.map": "/sauron-eye/static/js/main.0d95dc74.chunk.js.map",
+    "main.js": "/sauron-eye/static/js/main.41c39b54.chunk.js",
+    "main.js.map": "/sauron-eye/static/js/main.41c39b54.chunk.js.map",
     "runtime-main.js": "/sauron-eye/static/js/runtime-main.123eb616.js",
     "runtime-main.js.map": "/sauron-eye/static/js/runtime-main.123eb616.js.map",
     "static/js/2.9f832d10.chunk.js": "/sauron-eye/static/js/2.9f832d10.chunk.js",
     "static/js/2.9f832d10.chunk.js.map": "/sauron-eye/static/js/2.9f832d10.chunk.js.map",
     "index.html": "/sauron-eye/index.html",
-    "precache-manifest.a45b081b6824b06f1f862357800611e9.js": "/sauron-eye/precache-manifest.a45b081b6824b06f1f862357800611e9.js",
+    "precache-manifest.f5e71c8e91325254d8cc780adf2f0b45.js": "/sauron-eye/precache-manifest.f5e71c8e91325254d8cc780adf2f0b45.js",
     "service-worker.js": "/sauron-eye/service-worker.js",
     "static/css/main.39bf18ee.chunk.css.map": "/sauron-eye/static/css/main.39bf18ee.chunk.css.map",
     "static/js/2.9f832d10.chunk.js.LICENSE": "/sauron-eye/static/js/2.9f832d10.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.123eb616.js",
     "static/js/2.9f832d10.chunk.js",
     "static/css/main.39bf18ee.chunk.css",
-    "static/js/main.0d95dc74.chunk.js"
+    "static/js/main.41c39b54.chunk.js"
   ]
 }
