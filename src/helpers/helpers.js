@@ -32,9 +32,9 @@ const getSortedDashboard = pushers => {
       return { total: 0, passed: 0, name, sha: "-", project: "" };
     }
     const pusher = pushers[name].sort(sortByTime)[0];
-    const { passed, total, sha, project } = pusher;
+    const { passed, total, sha, project, failed } = pusher;
     const latestPushTime = getTimeDifference(new Date(), new Date(pusher.time));
-    return { total, passed, name, sha, project, latestPushTime };
+    return { total, passed, failed, name, sha, project, latestPushTime };
   });
 
   return dashboard.sort((x, y) => y.passed - x.passed);

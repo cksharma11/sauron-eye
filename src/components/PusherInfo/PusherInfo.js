@@ -2,7 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const PusherInfo = ({ pusher, number }) => {
-  const { name, sha, passed, total, project, latestPushTime } = pusher;
+  const { name, sha, passed, failed, project, latestPushTime } = pusher;
+  const total = passed + failed || 0;
+
   return (
     <tr className={`${number % 2 === 0 ? "white" : "whitesomke"}`}>
       <td className="serial-number">{number}</td>

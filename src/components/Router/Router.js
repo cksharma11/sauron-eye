@@ -5,17 +5,23 @@ import Dashboard from "../Dashboard/Dashboard";
 import History from "../History/History";
 
 const getPushersFromGollumJi = async () => {
-  return await fetch("https://gollum-ji.herokuapp.com/test").then(res => res.json());
+  return await fetch("https://gollum-ji.herokuapp.com/test").then(res =>
+    res.json()
+  );
 };
+
+let time = 500;
 
 const App = () => {
   const [pushers, setPushers] = useState({});
+
   useEffect(() => {
-    setInterval(async () => {
+    setTimeout(async () => {
       const gollumJiData = await getPushersFromGollumJi();
       setPushers(gollumJiData);
-    }, 5000);
-  }, []);
+      time = 5000;
+    }, time);
+  }, [pushers]);
 
   return (
     <Router history={createBrowserHistory()}>
